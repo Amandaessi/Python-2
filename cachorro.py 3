@@ -1,0 +1,15 @@
+class Personagem:
+         def __init__(self):
+             self.energia = 100  # Energia inicial
+         def brincar(self):
+            self.enerrgia -= 20 # Reduz 20 pontos de energia
+            print(f"Voce brincou! Energia restante: {self.energia}" )
+
+
+# Testanto a classe
+Personagem = Personagem()
+Personagem.brincar() 
+
+def __init__(self, energia=50)
+            
+        
